@@ -1,3 +1,9 @@
+# Data files.
+
+trello/data/*.json
+
+
+# --- Standard python gitignore patterns ---
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
