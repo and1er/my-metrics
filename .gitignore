@@ -1,6 +1,9 @@
 # Data files.
-
 trello/data/*.json
+
+
+# VS Code project settings.
+.vscode/
 
 
 # --- Standard python gitignore patterns ---
