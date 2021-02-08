@@ -2,6 +2,17 @@
 
 A tool for my personal metrics visualization and analysis using python.
 
+## Requirements
+
+* Python 3.7+;
+* a python virtual environment with `requirements.txt` installed:
+
+    ```bash
+    python3 -m venv ./venv
+    source ./venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
 ## Trello
 
 I use [Trello](https://trello.com) for my reading and courses management. And I want to visualize my progress in each component someday.
@@ -13,9 +24,10 @@ Trello could dump a board to `.json` file (in a UI in a board menu _Print and ex
 
 So this could help to start to analyze the data.
 
-### Requirements
+### Extra Requirements
 
-* Python 3.7+;
+In addition to [Requirements](#requirements):
+
 * a Trello account;
 * some dumps from Trello stored to `./trello/data/*.json` in `yyyy-mm-dd_HHMM.json` files.
 
